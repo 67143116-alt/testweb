@@ -1,0 +1,71 @@
+
+body {
+  font-family: 'Noto Serif Thai', serif;
+  margin: 0;
+  background: #faf7f2;
+  color: #3a2e2a;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #7b3f00;
+  color: #fff;
+}
+nav a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #e6d3b1;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+.card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: 180px;      /* กำหนดความสูงเท่ากัน */
+  object-fit: cover; /* ครอบรูปให้เต็ม ไม่ยืด */
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #7b3f00;
+  color: #fff;
+}
+
+.content-img {
+  width: 100%;
+  max-width: 800px;   /* จำกัดความกว้าง */
+  height: auto;       /* ไม่ให้ภาพเบี้ยว */
+  display: block;
+  margin: 20px auto;  /* จัดกึ่งกลาง */
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
